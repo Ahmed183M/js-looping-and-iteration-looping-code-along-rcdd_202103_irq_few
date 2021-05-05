@@ -4,6 +4,7 @@ function writeCards(array, name){
   for(let i=0; i<array.length; i++){
     newArray[i] = `Thank you, ${array[i]}, for the wonderful birthday gift!`;
   }
+  return newArray;
 }
 
 function countDown(num){
