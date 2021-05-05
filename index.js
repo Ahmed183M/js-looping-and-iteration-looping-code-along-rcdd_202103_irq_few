@@ -5,3 +5,10 @@ function writeCards(array, name){
     newArray[i] = `Thank you, ${array[i]}, for the wonderful birthday gift!`;
   }
 }
+
+function countDown(num){
+  while(num>=0){
+    console.log(num);
+    num--;
+  }
+}
